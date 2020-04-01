@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue chez Pur Beurre !</title>
+</head>
+<body>
+    Bonjour
+        {% if sexe == "Femme" or 'femme' %}
+            Madame
+        {% else %}
+            Monsieur
+        {% endif %}
+    <h1>Pur beurre : L'appli qui fait la chasse aux calories !</h1>
+    <p>Nous sommes le : {{ date }}</p>
+</body>
+</html>
